@@ -2,3 +2,5 @@ pipeline:
   build:
     image: plugins/docker
     repo: dhoeric/rails-docker
+    secrets: [ docker_username, docker_password ]
+
