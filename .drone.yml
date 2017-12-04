@@ -1,0 +1,4 @@
+pipeline:
+  build:
+    image: plugins/docker
+    repo: dhoeric/rails-docker
