@@ -3,4 +3,6 @@ pipeline:
     image: plugins/docker
     repo: dhoeric/rails-docker
     secrets: [ docker_username, docker_password ]
-
+  slack:
+    image: plugins/slack
+    secrets: [ slack_webhook ]
